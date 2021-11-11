@@ -1,6 +1,12 @@
-# Comp midterm net resources:
+# Comp midterm net resources :
 
-## Lookup table:
+## Summary
+
+1. [Lookup Table](#lookup-table-)
+2. [Quick Delay recap](#quick-delay-recap-)
+3. [Miscellaneous notes](#miscellaneous-notes-)
+
+## Lookup table :
 | Subject | Details | File name | Problem | Questions | Details/Note |
 |---------|---------|-----------|---------|-----------|--------------|
 |HTTP |HTTP Messages and proxy Cache + DNS Resolution | [midterm2018-solved] | 3 | 1.b, 2, 3, 4 | When DNS was resolved, proxy directly SYN to socket without going back to localhost |
@@ -8,6 +14,8 @@
 |LAB-related|Command|[midterm2019-solved]|2|3|`DIG` command question| 
 |HTTP|HTTP Messages, DNS recursive resolution w\ proxy|[midterm2017-solved]|2|1| |
 |Attack|Http Persa attack|[midterm2017-solved]|2|3, 4| |
+
+## Quick delay recap :
 
 ## Miscellaneous notes :
 
