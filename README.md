@@ -43,7 +43,6 @@ When there is a packet switch in the middle of two links:
 
 <img src="https://github.com/WollfieGitHub/CompNetResources/blob/master/resources/img/packet_total_delay_over_switch.png?raw=true" alt="packet_delay" width="50%"/>
 
-<img src="https://github.com/WollfieGitHub/CompNetResources/blob/master/resources/img/good_scheme_HTTP_window.png?raw=true" alt="http_window" width="50%"/>
 
 ### More notes : 
 **Queuing delay** : Approaches infinity if bit arrival rate > bit departure rate i.e. if packets are
@@ -67,13 +66,15 @@ processed slower than they arrive, is kinda what we call **burstiness** of the a
 
 ## Interesting illustrations :
 
-**Context** : Segment one is lost and window size is **N = 5** ([midterm2017-solved], Problem 3, Question 1)
+Here are other little files with more details on specific but important subjects, with good illustrations on
+the way these concepts work
 
-<img src="https://github.com/WollfieGitHub/CompNetResources/blob/master/resources/img/gbn_vs_sr.png?raw=true" alt="gbn_vs_sr" width="50%"/>
+- Go-Back-N vs Selective repeat details / Pros and cons : [more details on gbn and selective repeat]
+- Basics of HTTP communication with SEQ numbers : [more details on SEQ numbers and related delays]
 
 
-
-
+[more details on gbn and selective repeat]: details/gbn_vs_selective_repeat.md
+[more details on SEQ numbers and related delays]: details/http_seq_delays.md
 
 [midterm2017-solved]: resources/midterm2017-solved.pdf
 [midterm2018-solved]: resources/midterm2018-solved.pdf
