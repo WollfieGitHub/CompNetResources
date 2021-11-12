@@ -1,7 +1,7 @@
 
 
 # Super Useful Recap for Violent, Intense and Vile Exam
-## (S.U.R.V.I.V.E for short)
+## (S.U.R.V.I.V.E. for short)
 
 *Click* sur la molette de la souris pour ouvrir une page dans un nouvel onglet. Je dirais que la façon optimale
 d'utiliser ce doc une fois l'examen découvert c'est, pour chaque question, d'aller voir 
