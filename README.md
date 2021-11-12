@@ -22,6 +22,7 @@ et [Useful Conceptual Illustrations](#interesting-illustrations-) avant de comme
 4. [Miscellaneous notes](#miscellaneous-notes-): Notes diverses
 5. [Useful Conceptual Illustrations](#interesting-illustrations-): Si tu es quelqu'un qui aime le visuel, des illustrations
 utiles sur certains concepts
+6. [All resources](#all-resources-): Toutes les ressources utilisées ou pas, excepté les lessons
 
 ------------------------------------------------------------------------------------------
 ## Lookup table :
@@ -35,6 +36,7 @@ utiles sur certains concepts
 |HTTP |GBN vs Sel. Rep.  |[midterm2017-solved]|3|1, 2|There are pros for go-back-n too|
 |HTTP |Reliable data transfer elements|[midterm2017-solved]|3|3, 4|Different configurations of network, choose the right RDT elements for each|
 |HTTP |Evolution of Window Congestion Size|[final2019-solved]|4|1|Working with slow start and congestion avoidance|
+|HTTP |Time diagram with SEQ number communication|[final2018-solved]|4| 1, 2, 3|
 |Delay|Computing delays between two switches and other end systems|[midterm2017-solved]|4|1, 2, 3, 4, 5|Delays with a lot of variations: proxies, switches, retransmission...|
 |Delay|Computing delays between two switches with server in the middle|[midterm2017-solved]|4|1, 2|Less interesting than above|
 |Delay/P2P|Exotic Delay computing for P2P/Server and Switches|[midterm2019-solved]|4|1, 2, 3, 4|The question is long to read but has loads of details on P2P. Most of the question is a recap on P2P
@@ -132,6 +134,27 @@ the way these concepts work
 - What happens at a packet switch EXACTLY : [more details on packet switches]
 - Most of attack types : [more details on cyber attacks]
 
+------------------------------------------------------------------------------------------
+## All resources : 
+
+- [midterm2017-solved],
+[midterm2018-solved],
+[midterm2019-solved]
+
+- [final2017-solved],
+[final2018-solved],
+[final2019-solved],
+[final2020-solved]
+
+- [lesson4]
+
+- [lab1-solved],
+[lab2-solved],
+[lab3-solved],
+[lab4-solved],
+
+- [homework1-solved], [homework2-solved]
+
 [more details on cyber attacks]: details/cyber_attacks.md
 [more details on packet switches]: details/packet_switching.md
 [more details on gbn and selective repeat]: details/gbn_vs_selective_repeat.md
@@ -141,7 +164,10 @@ the way these concepts work
 [midterm2018-solved]: resources/midterms/midterm2018-solved.pdf
 [midterm2019-solved]: resources/midterms/midterm2019-solved.pdf
 
+[final2020-solved]: resources/finals/final2020-solved.pdf
 [final2019-solved]: resources/finals/final2019-solved.pdf
+[final2018-solved]: resources/finals/final2018-solved.pdf
+[final2017-solved]: resources/finals/final2017-solved.pdf
 
 [homework1-solved]: resources/homeworks/hw1-solved.pdf
 [homework2-solved]: resources/homeworks/hw2-solved.pdf
