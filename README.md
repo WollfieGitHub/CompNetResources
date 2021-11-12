@@ -12,7 +12,7 @@ revenir sur cette page et chercher dans les autres parties : Abréviations, Dela
 
 Aller voir [Miscellaneous notes](#miscellaneous-notes-) 
 et [Useful Conceptual Illustrations](#interesting-illustrations-) avant de commencer pour garder ça en tête.
-
+------------------------------------------------------------------------------------------
 ## Summary
 
 1. [Lookup Table](#lookup-table-): Lie chaque sujet/exercice type avec un/des corrigé(s)
@@ -22,7 +22,10 @@ et [Useful Conceptual Illustrations](#interesting-illustrations-) avant de comme
 5. [Useful Conceptual Illustrations](#interesting-illustrations-): Si tu es quelqu'un qui aime le visuel, des illustrations
 utiles sur certains concepts
 
+------------------------------------------------------------------------------------------
 ## Lookup table :
+
+### Exams solutions :
 | Subject | Details | File name | Problem | Question(s) | Details/Note |
 |:-------:|---------|:---------:|:-------:|:---------:|--------------|
 |HTTP |HTTP Messages and proxy Cache + DNS Resolution | [midterm2018-solved] | 3 | 1.b, 2, 3, 4 | When DNS was resolved, proxy directly SYN to socket without going back to localhost |
@@ -31,14 +34,22 @@ utiles sur certains concepts
 |HTTP |GBN vs Sel. Rep.  |[midterm2017-solved]|3|1, 2|There are pros for go-back-n too|
 |HTTP |Reliable data transfer elements|[midterm2017-solved]|3|3, 4|Different configurations of network, choose the right RDT elements for each|
 |HTTP |Evolution of Window Congestion Size|[final2019-solved]|4|1|Working with slow start and congestion avoidance|
-|HTTP |What happens when we press enter on URL|[homework2-solved]|all| - |DNS and HTTP resources resolution
-|Delay|Basics for computing delays|[homework1-solved]|all| - |Transmission, Throughput, Delay, With or Without switches, etc...|
-|Delay|Computing delays between two switches and other end systems|4|1, 2, 3, 4, 5|Delays with a lot of variations: proxies, switches, retransmission...|
+|Delay|Computing delays between two switches and other end systems|[midterm2017-solved]|4|1, 2, 3, 4, 5|Delays with a lot of variations: proxies, switches, retransmission...|
+|Delay|Computing delays between two switches with server in the middle|[midterm2017-solved]|4|1, 2|Less interesting than above|
 |Delay/P2P|Exotic Delay computing for P2P/Server and Switches|[midterm2019-solved]|4|1, 2, 3, 4|The question is long to read but has loads of details on P2P. Most of the question is a recap on P2P
-|Delay/P2P|All details you need, including distributing tables and magnet links|[lesson4]|-|-|The whole lecture slides on P2P and server (including implied delays)|
 |Attack|Http Persa attack|[midterm2017-solved]|2|3, 4| |
 |LAB-related|Command|[midterm2019-solved]|2|3|`DIG` command question| 
+|MCQ| About everything, multi choices questions| [midterm2017-solved], [midterm2018-solved], [midterm2019-solved]|1, each time|-|
 
+### Lessons, labs, homeworks :
+
+| Subject | Details | File name | Details/Note |
+|:-------:|---------|:---------:|--------------|
+|Delay/P2P|All details you need, including distributing tables and magnet links|[lesson4]|The whole lecture slides on P2P and server (including implied delays)|
+|Delay|Basics for computing delays|[homework1-solved]|Transmission, Throughput, Delay, With or Without switches, etc...|
+|HTTP |What happens when we press enter on URL|[homework2-solved]|DNS and HTTP resources resolution
+
+------------------------------------------------------------------------------------------
 ## Abbreviations :
 
 #### HTTP :
@@ -57,6 +68,7 @@ utiles sur certains concepts
 **BDP** | Bandwidth Delay Product | `BDP = R · d_propagation`, maximum nb of bits that can transit on the link at any point in time|
 **S&F** | Store & Forward | For packet switches, means it doesn't retransmit the file until the very last bit has arrived in the queue
 
+------------------------------------------------------------------------------------------
 ## Quick delay recap :
 
 <img src="https://github.com/WollfieGitHub/CompNetResources/blob/master/resources/img/transmission_delay.png?raw=true" alt="transmission_delay" width="50%"/>
@@ -68,12 +80,12 @@ from "+ queuing delay" to the end
 
 <img src="https://github.com/WollfieGitHub/CompNetResources/blob/master/resources/img/packet_total_delay_over_switch.png?raw=true" alt="packet_delay" width="50%"/>
 
-
 ### More notes : 
 **Queuing delay** : Approaches infinity if bit arrival rate > bit departure rate i.e. if packets are
 processed slower than they arrive, is kinda what we call **burstiness** of the arriving packets
 (arrival rate / departure rate ratio)
 
+------------------------------------------------------------------------------------------
 ## Miscellaneous notes :
 
 - **Delays** : **Throughput** is the parallel thingy, used for big files, multiple packets at once,
@@ -93,6 +105,7 @@ of the packet is pushed on the link when you write the delay in clear letters.
   (hence usually takes forever), **With** : Needs 3 (Convention, but can change in some exercises) ACKs with wrong
   SEQ number to retransmit
 
+------------------------------------------------------------------------------------------
 ## Interesting illustrations :
 
 Here are other little files with more details on specific but important subjects, with good illustrations on
