@@ -52,6 +52,7 @@ utiles sur certains concepts
 |Abbreviation | Meaning | Description |
 |:-----------:|:-------:|------------|
 **BDP** | Bandwidth Delay Product | `BDP = R · d_propagation`, maximum nb of bits that can transit on the link at any point in time|
+**S&F** | Store & Forward | For packet switches, means it doesn't retransmit the file until the very last bit has arrived in the queue
 
 ## Quick delay recap :
 
@@ -59,7 +60,8 @@ utiles sur certains concepts
 
 <img src="https://github.com/WollfieGitHub/CompNetResources/blob/master/resources/img/propagation_delay.png?raw=true" alt="propagation_delay" width="50%"/>
 
-When there is a packet switch in the middle of two links:
+When there is a packet switch in the middle of two links, otherwise just remove everything
+from "+ queuing delay" to the end
 
 <img src="https://github.com/WollfieGitHub/CompNetResources/blob/master/resources/img/packet_total_delay_over_switch.png?raw=true" alt="packet_delay" width="50%"/>
 
@@ -91,8 +93,9 @@ the way these concepts work
 
 - Go-Back-N vs Selective repeat details / Pros and cons : [more details on gbn and selective repeat]
 - Basics of HTTP communication with SEQ numbers : [more details on SEQ numbers and related delays]
+- What happens at a packet switch EXACTLY : [more details on packet switches]
 
-
+[more details on packet switches]: details/packet_switching.md
 [more details on gbn and selective repeat]: details/gbn_vs_selective_repeat.md
 [more details on SEQ numbers and related delays]: details/http_seq_delays.md
 
@@ -101,4 +104,4 @@ the way these concepts work
 [midterm2019-solved]: resources/midterms/midterm2019-solved.pdf
 [final2019-solved]: resources/finals/final2019-solved.pdf
 [homework1-solved]: resources/homeworks/hw1-solved.pdf
-[homework1-solved]: resources/homeworks/hw2-solved.pdf
+[homework2-solved]: resources/homeworks/hw2-solved.pdf
