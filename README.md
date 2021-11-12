@@ -19,11 +19,11 @@
 
 ## Quick delay recap :
 
-<img src="github.com/WollfieGitHub/CompNetResources/resources/img/packet_total_delay_over_switch.png" alt="transmission_delay"/>
+<img src="https://github.com/WollfieGitHub/CompNetResources/blob/master/resources/img/transmission_delay.png?raw=true" alt="transmission_delay" width="50%"/>
 
-<img src="github.com/WollfieGitHub/CompNetResources/resources/img/propagation_delay.png" alt="propagation_delay"/>
+<img src="https://github.com/WollfieGitHub/CompNetResources/blob/master/resources/img/propagation_delay.png?raw=true" alt="propagation_delay" width="50%"/>
 
-<img src="github.com/WollfieGitHub/CompNetResources/resources/img/packet_total_delay_over_switch.png" alt="packet_delay"/>
+<img src="https://github.com/WollfieGitHub/CompNetResources/blob/master/resources/img/packet_total_delay_over_switch.png?raw=true" alt="packet_delay" width="50%"/>
 
 ### More notes : 
 Queuing delay : Approaches infinity if bit arrival rate > bit departure rate i.e. if packets are
