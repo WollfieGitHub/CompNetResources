@@ -32,10 +32,12 @@ utiles sur certains concepts
 |HTTP |Reliable data transfer elements|[midterm2017-solved]|3|3, 4|Different configurations of network, choose the right RDT elements for each|
 |HTTP |Evolution of Window Congestion Size|[final2019-solved]|4|1|Working with slow start and congestion avoidance|
 |HTTP |What happens when we press enter on URL|[homework2-solved]|all| - |DNS and HTTP resources resolution
+|Delay|Basics for computing delays|[homework1-solved]|all| - |Transmission, Throughput, Delay, With or Without switches, etc...|
+|Delay|Computing delays between two switches and other end systems|4|1, 2, 3, 4, 5|Delays with a lot of variations: proxies, switches, retransmission...|
+|Delay/P2P|Exotic Delay computing for P2P/Server and Switches|[midterm2019-solved]|4|1, 2, 3, 4|The question is long to read but has loads of details on P2P. Most of the question is a recap on P2P
+|Delay/P2P|All details you need, including distributing tables and magnet links|[lesson4]|-|-|The whole lecture slides on P2P and server (including implied delays)|
 |Attack|Http Persa attack|[midterm2017-solved]|2|3, 4| |
 |LAB-related|Command|[midterm2019-solved]|2|3|`DIG` command question| 
-|Delay|Basics for computing delays|[homework1-solved]|all| - |Transmission, Throughput, Delay, With or Without switches, etc...|
-|Delay|Exotic Delay computing for P2P/Server and Switches|[midterm2019-solved]|4|1, 2, 3, 4|
 
 ## Abbreviations :
 
@@ -74,6 +76,10 @@ processed slower than they arrive, is kinda what we call **burstiness** of the a
 
 ## Miscellaneous notes :
 
+- **Delays** : **Throughput** is the parallel thingy, used for big files, multiple packets at once,
+**Propagation speed** is for small packets. **Important** is to take propagation delay from time when LAST bit
+of the packet is pushed on the link when you write the delay in clear letters.
+
 - **Pipelining** : Means technique in which multiple requests are written out to a single socket without waiting for
   the corresponding responses. Implies introduction of sliding window of size N.
   **Contrary of STOP and WAIT** which is send ONE segment and wait for ACK before sending TWO
@@ -95,7 +101,9 @@ the way these concepts work
 - Go-Back-N vs Selective repeat details / Pros and cons : [more details on gbn and selective repeat]
 - Basics of HTTP communication with SEQ numbers : [more details on SEQ numbers and related delays]
 - What happens at a packet switch EXACTLY : [more details on packet switches]
+- Most of attack types : [more details on cyber attacks]
 
+[more details on cyber attacks]: details/cyber_attacks.md
 [more details on packet switches]: details/packet_switching.md
 [more details on gbn and selective repeat]: details/gbn_vs_selective_repeat.md
 [more details on SEQ numbers and related delays]: details/http_seq_delays.md
@@ -103,6 +111,10 @@ the way these concepts work
 [midterm2017-solved]: resources/midterms/midterm2017-solved.pdf
 [midterm2018-solved]: resources/midterms/midterm2018-solved.pdf
 [midterm2019-solved]: resources/midterms/midterm2019-solved.pdf
+
 [final2019-solved]: resources/finals/final2019-solved.pdf
+
 [homework1-solved]: resources/homeworks/hw1-solved.pdf
 [homework2-solved]: resources/homeworks/hw2-solved.pdf
+
+[lesson4]: resources/lessons/lesson4.pdf
