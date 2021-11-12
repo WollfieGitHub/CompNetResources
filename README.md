@@ -1,3 +1,7 @@
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+
 # Comp midterm net resources :
 
 ## Summary
@@ -16,6 +20,8 @@
 |Attack|Http Persa attack|[midterm2017-solved]|2|3, 4| |
 
 ## Quick delay recap :
+
+\\(a^2 = b^2 + c^2\\)
 
 ## Miscellaneous notes :
 
