@@ -1,5 +1,3 @@
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
 
 
 # Comp midterm net resources :
@@ -21,7 +19,15 @@
 
 ## Quick delay recap :
 
-\\(a^2 = b^2 + c^2\\)
+<img src="github.com/WollfieGitHub/CompNetResources/resources/img/packet_total_delay_over_switch.png" alt="transmission_delay"/>
+
+<img src="github.com/WollfieGitHub/CompNetResources/resources/img/propagation_delay.png" alt="propagation_delay"/>
+
+<img src="github.com/WollfieGitHub/CompNetResources/resources/img/packet_total_delay_over_switch.png" alt="packet_delay"/>
+
+### More notes : 
+Queuing delay : Approaches infinity if bit arrival rate > bit departure rate i.e. if packets are
+processed slower than they arrive
 
 ## Miscellaneous notes :
 
