@@ -12,6 +12,7 @@ revenir sur cette page et chercher dans les autres parties : Abréviations, Dela
 
 Aller voir [Miscellaneous notes](#miscellaneous-notes-) 
 et [Useful Conceptual Illustrations](#interesting-illustrations-) avant de commencer pour garder ça en tête.
+
 ------------------------------------------------------------------------------------------
 ## Summary
 
