@@ -10,7 +10,8 @@ y correspond(ent), de l'/les ouvrir dans un nouvel onglet (pour pouvoir rapideme
 page une fois la question finie). Si on ne comprend pas un terme ou que la correction de la ressource n'est pas compréhensible, 
 revenir sur cette page et chercher dans les autres parties : Abréviations, Delay recap, Miscellaneous notes, illustrations...
 
-Peut être aller voir [Miscellaneous notes](#miscellaneous-notes-) avant de commencer pour garder ça en tête.
+Aller voir [Miscellaneous notes](#miscellaneous-notes-) 
+et [Useful Conceptual Illustrations](#interesting-illustrations-) avant de commencer pour garder ça en tête.
 
 ## Summary
 
