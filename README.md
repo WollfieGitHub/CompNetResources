@@ -48,7 +48,9 @@ utiles sur certains concepts
 |:-------:|---------|:---------:|--------------|
 |Delay/P2P|All details you need, including distributing tables and magnet links|[lesson4]|The whole lecture slides on P2P and server (including implied delays)|
 |Delay|Basics for computing delays|[homework1-solved]|Transmission, Throughput, Delay, With or Without switches, etc...|
-|HTTP |What happens when we press enter on URL|[homework2-solved]|DNS and HTTP resources resolution
+|HTTP |What happens when we press enter on URL|[homework2-solved]|DNS and HTTP resources resolution|
+|Network analysis| Tools and commands to analyse a network's composition|[lab1-solved]|`ifconfig`, `host`, `ping`, `traceroute`, `ssh`, (`grep`), `netstat`, **Wireshark**|
+
 
 ------------------------------------------------------------------------------------------
 ## Abbreviations :
@@ -132,3 +134,8 @@ the way these concepts work
 [homework2-solved]: resources/homeworks/hw2-solved.pdf
 
 [lesson4]: resources/lessons/lesson4.pdf
+
+[lab1-solved]: resources/labs/lab1-solved.pdf
+[lab2-solved]: resources/labs/lab2-solved.pdf
+[lab3-solved]: resources/labs/lab3-solved.pdf
+[lab4-solved]: resources/labs/lab4-solved.pdf
