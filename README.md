@@ -17,7 +17,7 @@
 |LAB-related|Command|[midterm2019-solved]|2|3|`DIG` command question| 
 |HTTP|HTTP Messages, DNS recursive resolution w\ proxy|[midterm2017-solved]|2|1| Recursive is d1 <=> d2 <=> d3, iterative is the other one|
 |Attack|Http Persa attack|[midterm2017-solved]|2|3, 4| |
-|
+|HTTP |GBN vs Sel. Rep.  |[midterm2017-solved]|3|1, 2
 
 ## Abbreviations :
 
@@ -67,7 +67,9 @@ processed slower than they arrive, is kinda what we call **burstiness** of the a
 
 ## Interesting illustrations :
 
-<img src="https://github.com/WollfieGitHub/CompNetResources/blob/master/resources/img/gbn_vs_sr.png?raw=true" alt="http_window" width="50%"/>
+**Context** : Segment one is lost and window size is **N = 5** ([midterm2017-solved], Problem 3, Question 1)
+
+<img src="https://github.com/WollfieGitHub/CompNetResources/blob/master/resources/img/gbn_vs_sr.png?raw=true" alt="gbn_vs_sr" width="50%"/>
 
 
 
