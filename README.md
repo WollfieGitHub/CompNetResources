@@ -50,7 +50,9 @@ utiles sur certains concepts
 |Delay|Basics for computing delays|[homework1-solved]|Transmission, Throughput, Delay, With or Without switches, etc...|
 |HTTP |What happens when we press enter on URL|[homework2-solved]|DNS and HTTP resources resolution|
 |Network analysis| Tools and commands to analyse a network's composition|[lab1-solved]|`ifconfig`, `host`, `ping`, `traceroute`, `ssh`, (`grep`), `netstat`, **Wireshark**|
-
+|Packet analysis| Tools and commands (no new cmd) to analyse a packet's delay|[lab2-solved]|Using graphs and all to estimates delays when pinging a destination|
+|HTTP Request|Dive deeper in the composition of an HTTP request|[lab3-solved]|`telnet`, http method, headers, encapsulation, cache, proxy, cookies|
+|DNS| Dive deeper in the DNS resolution|[lab4-solved]|DNS records (A, CNAME, NS, MX, ...), `systemd-resolved`, `dig`, iterative resolution, caching, TTL|
 
 ------------------------------------------------------------------------------------------
 ## Abbreviations :
@@ -58,6 +60,7 @@ utiles sur certains concepts
 #### HTTP :
 |Abbreviation | Meaning | Description |
 |:-----------:|:-------:|------------|
+**HTTP**| Hyper Text Transfer Protocol | Uses **TCP**, has a method (GET, POST, ...) and is used to fetch resources
 **RTT** | Round trip time | Time for a *small* packet to go to destination, then for the *small* response to come back. Can be used with most of the packet exchanged in an HTTP SEQ-type exercise because MSS is usually small|
 **MSS** | Maximum Segment Size | Usually the size of each segment sent in the HTTP SEQ-type exercises, it is dictated by network's properties|
 **ACK** | Acknowledgement | In response to your request, if it was received, in some exercises can be replaced with "**200 OK**" (for example in Message SRC-DEST tables to fill)|
@@ -70,6 +73,12 @@ utiles sur certains concepts
 |:-----------:|:-------:|------------|
 **BDP** | Bandwidth Delay Product | `BDP = R · d_propagation`, maximum nb of bits that can transit on the link at any point in time|
 **S&F** | Store & Forward | For packet switches, means it doesn't retransmit the file until the very last bit has arrived in the queue
+
+#### DNS :
+|Abbreviation | Meaning | Description |
+|:-----------:|:-------:|------------|
+|**DNS** | Domain Name System | Uses **UDP**, Translates human readable domain names into machine readable IP addresses|
+|
 
 ------------------------------------------------------------------------------------------
 ## Quick delay recap :
@@ -91,6 +100,10 @@ processed slower than they arrive, is kinda what we call **burstiness** of the a
 ------------------------------------------------------------------------------------------
 ## Miscellaneous notes :
 
+- **TCP vs UDP** : 
+  - UDP : No need for establishing a connection, rather fast, less reliable.
+  - TCP : Need to establish connection using SYN, slower than TCP, more reliable.
+  
 - **Delays** : **Throughput** is the parallel thingy, used for big files, multiple packets at once,
 **Propagation speed** is for small packets. **Important** is to take propagation delay from time when LAST bit
 of the packet is pushed on the link when you write the delay in clear letters.
